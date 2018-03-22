@@ -1,6 +1,7 @@
 site_name: Coding for science
 theme:
   name: 'material'
+remote_branch: 'master'
 
 pages:
     - Home: 'index.md'
