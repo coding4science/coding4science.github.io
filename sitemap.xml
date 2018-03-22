@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>/</loc>
+     <lastmod>2018-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>/set_env/env_windows/</loc>
+     <lastmod>2018-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/set_env/env_linux/</loc>
+     <lastmod>2018-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/set_env/env_mac/</loc>
+     <lastmod>2018-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/dev/jupyter/</loc>
+     <lastmod>2018-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/dev/git/</loc>
+     <lastmod>2018-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/dev/github/</loc>
+     <lastmod>2018-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/dev/remote/</loc>
+     <lastmod>2018-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/dev/testing/</loc>
+     <lastmod>2018-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/publish/package/</loc>
+     <lastmod>2018-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/publish/legal_issues/</loc>
+     <lastmod>2018-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/publish/binder/</loc>
+     <lastmod>2018-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/publish/documenting/</loc>
+     <lastmod>2018-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/publish/collaboration/</loc>
+     <lastmod>2018-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>/about/</loc>
+     <lastmod>2018-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+</urlset>

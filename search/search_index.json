@@ -1,0 +1,314 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Goal of this project\n\n\nThe goal of this website is to provide useful tips for scientists (PhD students notably) in their use of modern computer tools such as version control, containers for reproducible science, packaging, ...\n\n\nThis website is hosted using Github Pages and is open to contributions. Collaborating on its content can thus be seen as a way to enter the world of versioning and open source (without the added technicality of writing some software code).\n\n\nOther useful ressources (and inspirations) :\n\n\n\n\nhttp://www.gipsa-lab.grenoble-inp.fr/~timothee.gerber/#tools\n\n\nhttps://software-carpentry.org/lessons/", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#goal-of-this-project", 
+            "text": "The goal of this website is to provide useful tips for scientists (PhD students notably) in their use of modern computer tools such as version control, containers for reproducible science, packaging, ...  This website is hosted using Github Pages and is open to contributions. Collaborating on its content can thus be seen as a way to enter the world of versioning and open source (without the added technicality of writing some software code).  Other useful ressources (and inspirations) :   http://www.gipsa-lab.grenoble-inp.fr/~timothee.gerber/#tools  https://software-carpentry.org/lessons/", 
+            "title": "Goal of this project"
+        }, 
+        {
+            "location": "/set_env/env_windows/", 
+            "text": "On Windows\n\n\nTo be built... Contributions welcome.", 
+            "title": "On Windows"
+        }, 
+        {
+            "location": "/set_env/env_windows/#on-windows", 
+            "text": "To be built... Contributions welcome.", 
+            "title": "On Windows"
+        }, 
+        {
+            "location": "/set_env/env_linux/", 
+            "text": "Setting a development environment on Linux for science\n\n\nChoosing a environment manager\n\n\nThere are mainly two ways to manage \n\n\nVirtualenv/Pip\n\n\nPip is a package manager for python packages\nVirtualenv is an environment manager for \n\n\nInstallation\n\n\nConda\n\n\nConda is a package manager that aims manage any package, python or not. \n\n\nInstallation\n\n\nCreate a new environment\n\n\nInstalling packages\n\n\nExport the list of your packages\n\n\nReproduce your environment anywhere\n\n\nNote :\n\nThese two approaches do not require root (sudo) privileges so you can in theory use them on any computational server where you have an access, thus allowing you to reproduce your environment with all your libraries.", 
+            "title": "On Linux"
+        }, 
+        {
+            "location": "/set_env/env_linux/#setting-a-development-environment-on-linux-for-science", 
+            "text": "", 
+            "title": "Setting a development environment on Linux for science"
+        }, 
+        {
+            "location": "/set_env/env_linux/#choosing-a-environment-manager", 
+            "text": "There are mainly two ways to manage", 
+            "title": "Choosing a environment manager"
+        }, 
+        {
+            "location": "/set_env/env_linux/#virtualenvpip", 
+            "text": "Pip is a package manager for python packages\nVirtualenv is an environment manager for", 
+            "title": "Virtualenv/Pip"
+        }, 
+        {
+            "location": "/set_env/env_linux/#installation", 
+            "text": "", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/set_env/env_linux/#conda", 
+            "text": "Conda is a package manager that aims manage any package, python or not.", 
+            "title": "Conda"
+        }, 
+        {
+            "location": "/set_env/env_linux/#installation_1", 
+            "text": "", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/set_env/env_linux/#create-a-new-environment", 
+            "text": "", 
+            "title": "Create a new environment"
+        }, 
+        {
+            "location": "/set_env/env_linux/#installing-packages", 
+            "text": "", 
+            "title": "Installing packages"
+        }, 
+        {
+            "location": "/set_env/env_linux/#export-the-list-of-your-packages", 
+            "text": "", 
+            "title": "Export the list of your packages"
+        }, 
+        {
+            "location": "/set_env/env_linux/#reproduce-your-environment-anywhere", 
+            "text": "Note : \nThese two approaches do not require root (sudo) privileges so you can in theory use them on any computational server where you have an access, thus allowing you to reproduce your environment with all your libraries.", 
+            "title": "Reproduce your environment anywhere"
+        }, 
+        {
+            "location": "/set_env/env_mac/", 
+            "text": "Setting a developping environment on Mac for science\n\n\nTo be built... Contributions welcome.", 
+            "title": "On Mac"
+        }, 
+        {
+            "location": "/set_env/env_mac/#setting-a-developping-environment-on-mac-for-science", 
+            "text": "To be built... Contributions welcome.", 
+            "title": "Setting a developping environment on Mac for science"
+        }, 
+        {
+            "location": "/dev/jupyter/", 
+            "text": "", 
+            "title": "The Jupyter ecosystem"
+        }, 
+        {
+            "location": "/dev/git/", 
+            "text": "Version control using Git\n\n\nVersion control system, what is it ?\n\n\n\n\nManage your code and its evolutions\n\n\nKeep an history to go backwards.\n\n\n\n\nFor what\n : \n\n\nMostly for code, but also for latex and any text file ! \nNot adapted to big data, media files... \n\n\nGit\n\n\nGit, a decentralized version control system\n :\n\n\n\n\nDecentralized (no need of a server !),\n\n\nSecure,\n\n\nFashionable (widely used with a strong community)\n\n\n\n\nFor all OS (even Windows !)\n\n\nGit, Github, Gitlab, GitKracken etc ...\n\n\nBefore going further, let's clarify some terms that you have heard.\nGit is \nGithub or Gitlab are web application built around Git to provide collaborative services.\nGitKracken, are Graphical interfaces built upon Git to ease its use notably when collaborating with others over a Github/Gitlab platform.\n\n\nGit's Workflow\n\n\n{: style='width: 550px;' }\n{: .center }\n\n\nInstallation and configuration\n\n\nInstallation :\n \nDownload \nhere\n\nand follow instructions.\n\n\nConfiguration :\n\n\nColor is nice !\n\n\ngit config --global color.diff auto\ngit config --global color.status auto\ngit config --global color.branch auto\n\n\n\n\nYour credentials (useful for collaborative work).\n\n\ngit config --global user.name \nvotre_pseudo\n\ngit config --global user.email moi@email.com\n\n\n\n\nMy first project\n\n\nInit a repository\n\n\ngit init\n\n\n\n\nor copy an existing one)\n\n\ngit clone\n\n\n\n\nMy first commit\n\n\nWhat's a commit ?\n\n\nAn atomic update of code, followed by an (explicit !) commentary.\nThe more you commit the easier it is for you to follow your code !\n\n\ngit status\ngit add \ngit commit\n\n\n\n\nSir, I made a mistake !\n\n\n\ngit commit --amend\ngit revert\n\n\n\n\nHandle history\n\n\ngit log\ngit diff\ngit checkout\n\n\n\n\nBranches\n\n\nA branch\n :\n\n\n\n\nAn \"alternative\" of your code\n\n\nThe end of multiple directories !\n\n\n\n\nCreate or remove easily branches of your code. \n\n\ngit branch\n\ngit checkout -b maBranche\n\n\n\n\nNow we add a server...\n\n\nFor what ?\n\n\nCollaboration and backup\n\n\nDeclare the remote repository\n\n\ngit remote add origin ...\n\n\n\n\nGet and send\n\n\ngit push\ngit pull\n\n\n\n\nMerge\n\n\ngit merge\n\n\n\n\nIf two persons modify the same line =\n Conflit !\n\n\nDon't panic Git tells you everything !\n\n\nTo go further\n\n\ngit stash\ngit tag\n.gitgnore\n...\nman git\n\n\n\n\nReferences :\n\n\n\n\nOpen Classrooms\n\n\nMiximum", 
+            "title": "Version Control with git"
+        }, 
+        {
+            "location": "/dev/git/#version-control-using-git", 
+            "text": "", 
+            "title": "Version control using Git"
+        }, 
+        {
+            "location": "/dev/git/#version-control-system-what-is-it", 
+            "text": "Manage your code and its evolutions  Keep an history to go backwards.   For what  :   Mostly for code, but also for latex and any text file ! \nNot adapted to big data, media files...", 
+            "title": "Version control system, what is it ?"
+        }, 
+        {
+            "location": "/dev/git/#git", 
+            "text": "Git, a decentralized version control system  :   Decentralized (no need of a server !),  Secure,  Fashionable (widely used with a strong community)   For all OS (even Windows !)", 
+            "title": "Git"
+        }, 
+        {
+            "location": "/dev/git/#git-github-gitlab-gitkracken-etc", 
+            "text": "Before going further, let's clarify some terms that you have heard.\nGit is \nGithub or Gitlab are web application built around Git to provide collaborative services.\nGitKracken, are Graphical interfaces built upon Git to ease its use notably when collaborating with others over a Github/Gitlab platform.", 
+            "title": "Git, Github, Gitlab, GitKracken etc ..."
+        }, 
+        {
+            "location": "/dev/git/#gits-workflow", 
+            "text": "{: style='width: 550px;' }\n{: .center }", 
+            "title": "Git's Workflow"
+        }, 
+        {
+            "location": "/dev/git/#installation-and-configuration", 
+            "text": "Installation :  \nDownload  here \nand follow instructions.  Configuration :  Color is nice !  git config --global color.diff auto\ngit config --global color.status auto\ngit config --global color.branch auto  Your credentials (useful for collaborative work).  git config --global user.name  votre_pseudo \ngit config --global user.email moi@email.com", 
+            "title": "Installation and configuration"
+        }, 
+        {
+            "location": "/dev/git/#my-first-project", 
+            "text": "Init a repository  git init  or copy an existing one)  git clone", 
+            "title": "My first project"
+        }, 
+        {
+            "location": "/dev/git/#my-first-commit", 
+            "text": "What's a commit ?  An atomic update of code, followed by an (explicit !) commentary.\nThe more you commit the easier it is for you to follow your code !  git status\ngit add \ngit commit", 
+            "title": "My first commit"
+        }, 
+        {
+            "location": "/dev/git/#sir-i-made-a-mistake", 
+            "text": "git commit --amend\ngit revert", 
+            "title": "Sir, I made a mistake !"
+        }, 
+        {
+            "location": "/dev/git/#handle-history", 
+            "text": "git log\ngit diff\ngit checkout", 
+            "title": "Handle history"
+        }, 
+        {
+            "location": "/dev/git/#branches", 
+            "text": "A branch  :   An \"alternative\" of your code  The end of multiple directories !   Create or remove easily branches of your code.   git branch\n\ngit checkout -b maBranche", 
+            "title": "Branches"
+        }, 
+        {
+            "location": "/dev/git/#now-we-add-a-server", 
+            "text": "For what ?  Collaboration and backup  Declare the remote repository  git remote add origin ...  Get and send  git push\ngit pull", 
+            "title": "Now we add a server..."
+        }, 
+        {
+            "location": "/dev/git/#merge", 
+            "text": "git merge  If two persons modify the same line =  Conflit !  Don't panic Git tells you everything !", 
+            "title": "Merge"
+        }, 
+        {
+            "location": "/dev/git/#to-go-further", 
+            "text": "git stash\ngit tag\n.gitgnore\n...\nman git  References :   Open Classrooms  Miximum", 
+            "title": "To go further"
+        }, 
+        {
+            "location": "/dev/github/", 
+            "text": "Github : the (currently) main platform for Open-Source projects\n\n\nWhat is Github\n\n\nGithub is a web application that provide an interface built upon Git for collaboration between developpers.\nIt provides notably \n\n\nNote:\n\nEven if Github as become a de facto standard in the Open source world, the github web application is itself not opensource... Open source alternatives exist, such as Gitlab, that allow self-hosted instances.\n\n\nThe Github Workflow\n\n\nCloning vs Forking\n\n\nPull requests\n\n\nGithub Pages", 
+            "title": "Collaboration with Github"
+        }, 
+        {
+            "location": "/dev/github/#github-the-currently-main-platform-for-open-source-projects", 
+            "text": "", 
+            "title": "Github : the (currently) main platform for Open-Source projects"
+        }, 
+        {
+            "location": "/dev/github/#what-is-github", 
+            "text": "Github is a web application that provide an interface built upon Git for collaboration between developpers.\nIt provides notably   Note: \nEven if Github as become a de facto standard in the Open source world, the github web application is itself not opensource... Open source alternatives exist, such as Gitlab, that allow self-hosted instances.", 
+            "title": "What is Github"
+        }, 
+        {
+            "location": "/dev/github/#the-github-workflow", 
+            "text": "", 
+            "title": "The Github Workflow"
+        }, 
+        {
+            "location": "/dev/github/#cloning-vs-forking", 
+            "text": "", 
+            "title": "Cloning vs Forking"
+        }, 
+        {
+            "location": "/dev/github/#pull-requests", 
+            "text": "", 
+            "title": "Pull requests"
+        }, 
+        {
+            "location": "/dev/github/#github-pages", 
+            "text": "", 
+            "title": "Github Pages"
+        }, 
+        {
+            "location": "/dev/remote/", 
+            "text": "SSH\n\n\nLocal connection to computation servers\n\n\nssh your_login@calcul_server\n\n\n\n\nYou will be connected to. Then, the following commands will be usefull:\n\n\n\n\nls\n -- list directory contents;\n\n\ncd\n -- change the working directory;\n\n\nmkdir\n -- create new directories;\n\n\nman\n -- read the manual;\n\n\nmatlab\n or \npython\n -- execute your scripts;\n\n\ntop\n -- display the running process;\n\n\nexit\n or \nctrl + d\n -- close the ssh connection.\n\n\n\n\n\n\nSCP -- secure copy of remote file\n\n\nAnother way to copy files to the computation servers is to use \nscp\n on your computer (without ssh connection):\n\n\nscp /path/to/the/file/on/your/computer.extension your_login@calcul_server:/path/on/the/server/where/you/want/to/copy/the/file.extension  \n\n\n\n\nOn the contrary, if you want to copy a file from the server to your computer, you will enter (without ssh connection):\n\n\nscp your_login@calcul_server:/path/to/the/file/on/the/server.extension /path/on/your/computer/where/you/want/to/copy/the/file.extension  \n\n\n\n\nNote that the \n-r\n can be used to copy recursively all the files of a directory.\nWindows users can also use \nwinSCP\n which provides a graphical interface.\n\n\nRemote connection with a VPN or a ssh tunnel\n\n\nAs the access to some \n\n\nIt is possible to reach the computation servers with any computer, even your personal one. You have to open a [SSH tunnel][OUI:sshTunneling] in a first terminal, and then in a second terminal, you can copy file with \nscp\n command or open a SSH connection.\n\n\nThe SSH tunnel:\n\n\nssh -N -L 22000:calcul.gipsa-lab.grenoble-inp.fr:22 your_login@ssh.gipsa-lab.grenoble-inp.fr\n\n\n\n\nOnce authenticated, the command will not prompt anything. It looks like the command is stopped, but it is not the case. Do not close this terminal! \n\n\nThen, you can copy file or open a SSH connection:\n\n\nscp -P 22000 /path/to/the/file/on/your/computer.extension your_login@localhost:/path/on/the/server/where/you/want/to/copy/the/file.extension  \nssh -p 22000 your_login@localhost\n\n\n\n\nAuthentication key\n\n\nTired of typing your password? Use the key authentication! Follow the following process (while your computer is connected to the Gipsa network) and the password prompt will not show again. \nMore details here\n for Windows user using PuTTY. \n\n\n\n\nGenerate on your computer a couple of public and private keys:\n\n\n\n\nssh-keygen\n\n\n\n\n\n\nDo not share your private key! \n\n\nCopy the public key on the servers:\n\n\n\n\ncat ~/.ssh/id_rsa.pub | ssh your_login@calcul_server \ncat - \n ~/.ssh/authorized_keys\n\n\n\n\n\nIf you want more information about key authentication, you can read \nthis\n.\n\n\nVirtual terminals\n\n\nscreen\n and \ntmux\n are terminal multiplexers: you can manage several terminal from a single window. The virtual terminals may be detached from the screen and continue to run in background. It is possible to attach them again, later. You can even turn off your computer while the virtual terminal is running on the server.\n\n\n\n\nCreate a virtual terminal:\n\n\n\n\nscreen -S myVirtualTerminalName\n\n\n\n\n\n\nLaunch your computations;\n\n\nDetach the virtual terminal: press simultaneously \nctrl + a\n and then \nd\n;\n\n\nList the running virtual terminals and attach one of them:\n\n\n\n\nscreen -ls\nscreen -x myVirtualTerminalName\n\n\n\n\nTips\n\n\nIf you absolutely need a graphical interface for the Matlab launched on the server, you should specify the \n-X\n option when opening the ssh connection:\n\n\nssh -X calcul\n\n\n\n\nI didn't put \nyour_login@\n in front of \ncalcul\n here. In fact, by default \nssh\n will use the local login to log on the server. If there are identical, there is no need to specify it. \n\n\nOther tips:\n\n\n\n\nyou can work locally on the server to increase your script performances (especially if you read/write lots of files). Create a directory in \n/tmp/\n and copy your scripts and data here.\n\n\ndo not display any figure in the script you launched on the server; by default there is no graphical interface and your code will crash.\n\n\ndo not forget to use \nsreen\n or \ntmux\n.\n\n\n\n\nJupyterhub", 
+            "title": "Access to a remote server"
+        }, 
+        {
+            "location": "/dev/remote/#ssh", 
+            "text": "", 
+            "title": "SSH"
+        }, 
+        {
+            "location": "/dev/remote/#local-connection-to-computation-servers", 
+            "text": "ssh your_login@calcul_server  You will be connected to. Then, the following commands will be usefull:   ls  -- list directory contents;  cd  -- change the working directory;  mkdir  -- create new directories;  man  -- read the manual;  matlab  or  python  -- execute your scripts;  top  -- display the running process;  exit  or  ctrl + d  -- close the ssh connection.", 
+            "title": "Local connection to computation servers"
+        }, 
+        {
+            "location": "/dev/remote/#scp-secure-copy-of-remote-file", 
+            "text": "Another way to copy files to the computation servers is to use  scp  on your computer (without ssh connection):  scp /path/to/the/file/on/your/computer.extension your_login@calcul_server:/path/on/the/server/where/you/want/to/copy/the/file.extension    On the contrary, if you want to copy a file from the server to your computer, you will enter (without ssh connection):  scp your_login@calcul_server:/path/to/the/file/on/the/server.extension /path/on/your/computer/where/you/want/to/copy/the/file.extension    Note that the  -r  can be used to copy recursively all the files of a directory.\nWindows users can also use  winSCP  which provides a graphical interface.", 
+            "title": "SCP -- secure copy of remote file"
+        }, 
+        {
+            "location": "/dev/remote/#remote-connection-with-a-vpn-or-a-ssh-tunnel", 
+            "text": "As the access to some   It is possible to reach the computation servers with any computer, even your personal one. You have to open a [SSH tunnel][OUI:sshTunneling] in a first terminal, and then in a second terminal, you can copy file with  scp  command or open a SSH connection.  The SSH tunnel:  ssh -N -L 22000:calcul.gipsa-lab.grenoble-inp.fr:22 your_login@ssh.gipsa-lab.grenoble-inp.fr  Once authenticated, the command will not prompt anything. It looks like the command is stopped, but it is not the case. Do not close this terminal!   Then, you can copy file or open a SSH connection:  scp -P 22000 /path/to/the/file/on/your/computer.extension your_login@localhost:/path/on/the/server/where/you/want/to/copy/the/file.extension  \nssh -p 22000 your_login@localhost", 
+            "title": "Remote connection with a VPN or a ssh tunnel"
+        }, 
+        {
+            "location": "/dev/remote/#authentication-key", 
+            "text": "Tired of typing your password? Use the key authentication! Follow the following process (while your computer is connected to the Gipsa network) and the password prompt will not show again.  More details here  for Windows user using PuTTY.    Generate on your computer a couple of public and private keys:   ssh-keygen   Do not share your private key!   Copy the public key on the servers:   cat ~/.ssh/id_rsa.pub | ssh your_login@calcul_server  cat -   ~/.ssh/authorized_keys   If you want more information about key authentication, you can read  this .", 
+            "title": "Authentication key"
+        }, 
+        {
+            "location": "/dev/remote/#virtual-terminals", 
+            "text": "screen  and  tmux  are terminal multiplexers: you can manage several terminal from a single window. The virtual terminals may be detached from the screen and continue to run in background. It is possible to attach them again, later. You can even turn off your computer while the virtual terminal is running on the server.   Create a virtual terminal:   screen -S myVirtualTerminalName   Launch your computations;  Detach the virtual terminal: press simultaneously  ctrl + a  and then  d ;  List the running virtual terminals and attach one of them:   screen -ls\nscreen -x myVirtualTerminalName", 
+            "title": "Virtual terminals"
+        }, 
+        {
+            "location": "/dev/remote/#tips", 
+            "text": "If you absolutely need a graphical interface for the Matlab launched on the server, you should specify the  -X  option when opening the ssh connection:  ssh -X calcul  I didn't put  your_login@  in front of  calcul  here. In fact, by default  ssh  will use the local login to log on the server. If there are identical, there is no need to specify it.   Other tips:   you can work locally on the server to increase your script performances (especially if you read/write lots of files). Create a directory in  /tmp/  and copy your scripts and data here.  do not display any figure in the script you launched on the server; by default there is no graphical interface and your code will crash.  do not forget to use  sreen  or  tmux .", 
+            "title": "Tips"
+        }, 
+        {
+            "location": "/dev/remote/#jupyterhub", 
+            "text": "", 
+            "title": "Jupyterhub"
+        }, 
+        {
+            "location": "/dev/testing/", 
+            "text": "", 
+            "title": "Code testing"
+        }, 
+        {
+            "location": "/publish/package/", 
+            "text": "", 
+            "title": "Make a package"
+        }, 
+        {
+            "location": "/publish/legal_issues/", 
+            "text": "What can I do with my code\n\n\nAll code developed using means (time, computers) related to the employer belongs to the employer.\n\n\nYou have to ask the valorization department.\n\n\nLicensing\n\n\nOnce you have decided to Open-Source your code, you have to define a licence \n\n\nThere are mainly two large classes of licenses :\n- permissive ones like BSD, MIT or Apache : \n- copyleft ones like GPL(v2, v3) :", 
+            "title": "Legal issues (licensing...)"
+        }, 
+        {
+            "location": "/publish/legal_issues/#what-can-i-do-with-my-code", 
+            "text": "All code developed using means (time, computers) related to the employer belongs to the employer.  You have to ask the valorization department.", 
+            "title": "What can I do with my code"
+        }, 
+        {
+            "location": "/publish/legal_issues/#licensing", 
+            "text": "Once you have decided to Open-Source your code, you have to define a licence   There are mainly two large classes of licenses :\n- permissive ones like BSD, MIT or Apache : \n- copyleft ones like GPL(v2, v3) :", 
+            "title": "Licensing"
+        }, 
+        {
+            "location": "/publish/binder/", 
+            "text": "Demo\n\n\nA very good way to ensure that your method and library will be used by others is to provide\n- Binder", 
+            "title": "Reproducible examples"
+        }, 
+        {
+            "location": "/publish/binder/#demo", 
+            "text": "A very good way to ensure that your method and library will be used by others is to provide\n- Binder", 
+            "title": "Demo"
+        }, 
+        {
+            "location": "/publish/documenting/", 
+            "text": "", 
+            "title": "Documenting"
+        }, 
+        {
+            "location": "/publish/collaboration/", 
+            "text": "What do I want to do ?\n\n\n\n\nSharing a \n\n\nCreating a collaborative library\n\n\n\n\nDocumenting", 
+            "title": "Build a open source project"
+        }, 
+        {
+            "location": "/publish/collaboration/#what-do-i-want-to-do", 
+            "text": "Sharing a   Creating a collaborative library", 
+            "title": "What do I want to do ?"
+        }, 
+        {
+            "location": "/publish/collaboration/#documenting", 
+            "text": "", 
+            "title": "Documenting"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "Why\n\n\nNowadays, \n\n\nAs stated on the home page, this website is hosted using Github Pages and is open to contributions. Collaborating on its content can thus be seen as a way to enter the world of versioning and open source (without the added technicality of writing some software code).", 
+            "title": "About"
+        }, 
+        {
+            "location": "/about/#why", 
+            "text": "Nowadays,   As stated on the home page, this website is hosted using Github Pages and is open to contributions. Collaborating on its content can thus be seen as a way to enter the world of versioning and open source (without the added technicality of writing some software code).", 
+            "title": "Why"
+        }
+    ]
+}
