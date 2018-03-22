@@ -8,6 +8,8 @@
 
 ### Test
 
-## Conda
+## Put your program online
 
-## 
+### With Conda
+
+### With pip on Pypi

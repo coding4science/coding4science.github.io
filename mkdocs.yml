@@ -6,9 +6,7 @@ remote_branch: 'master'
 pages:
     - Home: 'index.md'
     - Setting a coding env: 
-      - 'On Windows': 'set_env/env_windows.md'
       - 'On Linux': 'set_env/env_linux.md'
-      - 'On Mac': 'set_env/env_mac.md'
     - Developping code: 
       - 'The Jupyter ecosystem': 'dev/jupyter.md'
       - 'Version Control with git': 'dev/git.md'
@@ -21,4 +19,4 @@ pages:
       - 'Reproducible examples': 'publish/binder.md'
       - 'Documenting': 'publish/documenting.md'
       - 'Build a open source project': 'publish/collaboration.md'
-    - About: about.md
+    - Glossary: glossary.md
