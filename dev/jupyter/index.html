@@ -70,6 +70,10 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
+      <a href="#a-bit-of-history" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -194,32 +198,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../set_env/env_windows/" title="On Windows" class="md-nav__link">
-      On Windows
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../../set_env/env_linux/" title="On Linux" class="md-nav__link">
       On Linux
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../set_env/env_mac/" title="On Mac" class="md-nav__link">
-      On Mac
     </a>
   </li>
 
@@ -260,6 +240,8 @@
   <li class="md-nav__item md-nav__item--active">
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
     
     
     <a href="./" title="The Jupyter ecosystem" class="md-nav__link md-nav__link--active">
@@ -412,8 +394,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../about/" title="About" class="md-nav__link">
-      About
+    <a href="../../glossary/" title="Glossary" class="md-nav__link">
+      Glossary
     </a>
   </li>
 
@@ -425,15 +407,142 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                  <h1>The Jupyter ecosystem</h1>
-                
-                
+                <h1 id="_1"></h1>
+<p>For a live view of most of this presentation see:
+<a href="https://mybinder.org/v2/gh/raphbacher/presentation-jupyter-08-03-2018/master">https://mybinder.org/v2/gh/raphbacher/presentation-jupyter-08-03-2018/master</a></p>
+<h2 id="a-bit-of-history">A bit of history</h2>
+<p>At the beginning :
+- 2001 : IPython (F. Perez), a REPL (Read–Eval–Print Loop) client-server
+- 2011 : IPython notebook : app web for documents mixing code, equations, images and text</p>
+<p>Key concept : a client-server protocol
+<div style="margin: 0 auto;width:20%">
+<img alt="" src="../images/ipy_kernel_and_terminal.png" />
+</div></p>
+<h2 id="jupyter-now">Jupyter Now</h2>
+<ul>
+<li>Jupyter Notebook : heir to the IPython notebook (~2015)</li>
+<li>JupyterHub : a multi-user version for classes, workshops etc...</li>
+<li>Jupyterlab : a web IDE </li>
+<li>Kernels for more than 40 languages : Python, R, Julia, C++ (!) ...</li>
+<li>> 6M users (2017)</li>
+<li>> 1M de notebooks on Github (2017)</li>
+<li>...</li>
+</ul>
+<h2 id="jupyter-notebook">Jupyter Notebook</h2>
+<p><div class="row" style="display:flex;width:100%">
+<div class="column" style="margin:10px; flex:auto">
+<ul>
+    <li> A document format (in JSON)
+    <li> A client-server web app
+    <li> Mix text, results and code (with local or remote execution).
+</ul></p>
+<p>Limitations :
+<ul>
+<li>Not the only nor the first Notebook (Mathematica, Apache Zeppelin, Rmarkdown...)
+<li> Bad versionning (JSON...), non-linear execution of cells...
+</ul>
+</div>
+<div class="column" style="margin:10px; flex:auto">
+<img src="images/jupyter_notebook.png">
+</div>
+</div></p>
+<h2 id="ipywidgets">Ipywidgets</h2>
+<ul>
+<li>Widgets allowing graphical interactions</li>
+<li>2D, 3D plotting librairies built on these </li>
+</ul>
+<p>http://jupyter.org/widgets</p>
+<h2 id="jupyterlab">Jupyterlab</h2>
+<ul>
+<li>Same notebook format/server but greatly improved client interface</li>
+<li>A web IDE (not quite there yet)</li>
+<li>A View/Model mechanism for all documents</li>
+<li>allow e.g. to write a document in md/latex and see live preview</li>
+<li>Highly customizable by extensions (all curent parts are extensions) :</li>
+<li>git/github</li>
+<li>draw.io</li>
+<li>geojson </li>
+<li>...</li>
+</ul>
+<p><strong>To install</strong>
+ <em>conda install -c conda-forge jupyterlab</em></p>
+<p>You can try it online here : <a href="https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/master?urlpath=lab/tree/demo/Lorenz.ipynb">https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/master?urlpath=lab/tree/demo/Lorenz.ipynb</a></p>
+<h2 id="jupyterhub">JupyterHub</h2>
+<div class="row" style="display:flex;width:100%">
+<div class="column" style="margin:10px; flex:auto">
+<h3> Components </h3>
+<ul>
+<li>A web proxy
+<li>An environnement image (docker)
+<li>A list of users
+</ul>
+
+</div>
+<div class="column" style="flex:auto;margin:10px">
+<img src="images/jupyterhub_schema.png">
+</div>
+</div>
+
+<h2 id="binderhub">BinderHub</h2>
+<div class="row" style="display:flex; margin: 0 auto; width: 100%">
+<div class="column" style="flex:30%; margin: 10px">
+    Combine the proxy to docker instance of Jupyterhub with a project for "repo to docker image"
+
+<ul>
+<li> Put your code (demo/tuto, course...) on a github repo online
+<li> Generate a link on https://mybinder.org/ from your repo link
+<li> When going to this new url, any web user get a sandbox containing your code and with all wanted packages already installed.
+</ul>
+</div>
+<div class="column" style="flex:40%; margin: 10px">
+<img src="images/architecture.png">
+</div>
+</div>
+
+<h2 id="summary-of-user-stories">Summary of user stories</h2>
+<ul>
+<li>Do data analysis, prototyping...
+    -&gt; Jupyterlab : Notebook + editor+console+terminal</li>
+<li>Publish a demo/tuto of a library
+    -&gt; BinderHub : https://mybinder.org/</li>
+<li>Share a static (html) version of a notebook online  :
+    -&gt; nbviewer : https://nbviewer.jupyter.org/</li>
+<li>Give a working environment to students  :
+    -&gt; jupyterhub : https://jupyterhub.u-ga.fr</li>
+<li>Give, fetch and grade exercises : -&gt; nbgrader</li>
+</ul>
+<p>## Lots of utilities</p>
+<ul>
+<li><a href="https://github.com/jupyter/nbconvert">nbconvert</a> (used by nbviewer and "Download as" menu) : convert notebook in md, latex, pdf, slides html</li>
+<li><a href="https://github.com/damianavila/RISE">RISE</a> : jupyter in slides mode</li>
+<li><a href="https://nteract.io/">nteract</a> : notebook in native app (no browser)</li>
+<li><a href="https://nteract.io/atom">hydrogen</a> : interactive coding in Atom editor</li>
+<li><a href="https://github.com/aaren/notedown">notedown</a>/<a href="https://github.com/chronitis/ipyrmd">ipyrmd</a> : write a notebook in (r)markdown</li>
+<li><a href="https://github.com/SamLau95/nbinteract">nbinteract</a>/<a href="https://github.com/minrk/thebelab">thebelab</a> : interactive html</li>
+<li><a href="https://github.com/jupyter/jupyter/wiki/a-gallery-of-interesting-jupyter-notebooks">Gallery of notebooks, books etc...</a></li>
+<li><a href="https://colab.research.google.com">Colaboratory</a> : jupyter notebook in Google Drive : collaborative :-), Google :-(</li>
+</ul>
                 
                   
                 
@@ -454,7 +563,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../../set_env/env_mac/" title="On Mac" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../set_env/env_linux/" title="On Linux" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -463,7 +572,7 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                On Mac
+                On Linux
               </span>
             </div>
           </a>

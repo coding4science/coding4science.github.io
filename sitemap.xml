@@ -12,19 +12,7 @@
     
         
     <url>
-     <loc>/set_env/env_windows/</loc>
-     <lastmod>2018-03-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
      <loc>/set_env/env_linux/</loc>
-     <lastmod>2018-03-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/set_env/env_mac/</loc>
      <lastmod>2018-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -101,7 +89,7 @@
 
     
     <url>
-     <loc>/about/</loc>
+     <loc>/glossary/</loc>
      <lastmod>2018-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>

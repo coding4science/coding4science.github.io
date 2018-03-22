@@ -70,7 +70,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#ssh" tabindex="1" class="md-skip">
+      <a href="#access-to-a-remote-server-by-ssh" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -198,32 +198,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../set_env/env_windows/" title="On Windows" class="md-nav__link">
-      On Windows
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../../set_env/env_linux/" title="On Linux" class="md-nav__link">
       On Linux
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../set_env/env_mac/" title="On Mac" class="md-nav__link">
-      On Mac
     </a>
   </li>
 
@@ -304,9 +280,113 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Access to a remote server
+      </label>
+    
     <a href="./" title="Access to a remote server" class="md-nav__link md-nav__link--active">
       Access to a remote server
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-ssh-protocol" title="The SSH protocol" class="md-nav__link">
+    The SSH protocol
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#local-connection-to-computation-servers" title="Local connection to computation servers" class="md-nav__link">
+    Local connection to computation servers
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#on-windows" title="On windows" class="md-nav__link">
+    On windows
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scp-secure-copy-of-remote-file" title="SCP -- secure copy of remote file" class="md-nav__link">
+    SCP -- secure copy of remote file
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remote-connection-with-a-vpn-or-a-ssh-tunnel" title="Remote connection with a VPN or a ssh tunnel" class="md-nav__link">
+    Remote connection with a VPN or a ssh tunnel
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vpn" title="VPN" class="md-nav__link">
+    VPN
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ssh-tunneling" title="SSH Tunneling" class="md-nav__link">
+    SSH Tunneling
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#authentication-key" title="Authentication key" class="md-nav__link">
+    Authentication key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virtual-terminals" title="Virtual terminals" class="md-nav__link">
+    Virtual terminals
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" title="Tips" class="md-nav__link">
+    Tips
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -418,8 +498,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../about/" title="About" class="md-nav__link">
-      About
+    <a href="../../glossary/" title="Glossary" class="md-nav__link">
+      Glossary
     </a>
   </li>
 
@@ -441,6 +521,97 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-ssh-protocol" title="The SSH protocol" class="md-nav__link">
+    The SSH protocol
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#local-connection-to-computation-servers" title="Local connection to computation servers" class="md-nav__link">
+    Local connection to computation servers
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#on-windows" title="On windows" class="md-nav__link">
+    On windows
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scp-secure-copy-of-remote-file" title="SCP -- secure copy of remote file" class="md-nav__link">
+    SCP -- secure copy of remote file
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remote-connection-with-a-vpn-or-a-ssh-tunnel" title="Remote connection with a VPN or a ssh tunnel" class="md-nav__link">
+    Remote connection with a VPN or a ssh tunnel
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vpn" title="VPN" class="md-nav__link">
+    VPN
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ssh-tunneling" title="SSH Tunneling" class="md-nav__link">
+    SSH Tunneling
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#authentication-key" title="Authentication key" class="md-nav__link">
+    Authentication key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virtual-terminals" title="Virtual terminals" class="md-nav__link">
+    Virtual terminals
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" title="Tips" class="md-nav__link">
+    Tips
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -452,8 +623,9 @@
               
                 
                 
-                <h1 id="ssh">SSH</h1>
-<h1 id="local-connection-to-computation-servers">Local connection to computation servers</h1>
+                <h1 id="access-to-a-remote-server-by-ssh">Access to a remote server by SSH</h1>
+<h2 id="the-ssh-protocol">The SSH protocol</h2>
+<h2 id="local-connection-to-computation-servers">Local connection to computation servers</h2>
 <pre><code class="sh">ssh your_login@calcul_server
 </code></pre>
 
@@ -467,8 +639,9 @@
 <li><code>top</code> -- display the running process;</li>
 <li><code>exit</code> or <code>ctrl + d</code> -- close the ssh connection.</li>
 </ul>
-<hr />
-<h1 id="scp-secure-copy-of-remote-file">SCP -- secure copy of remote file</h1>
+<h3 id="on-windows">On windows</h3>
+<p>Use putty</p>
+<h2 id="scp-secure-copy-of-remote-file">SCP -- secure copy of remote file</h2>
 <p>Another way to copy files to the computation servers is to use <code>scp</code> on your computer (without ssh connection):</p>
 <pre><code class="sh">scp /path/to/the/file/on/your/computer.extension your_login@calcul_server:/path/on/the/server/where/you/want/to/copy/the/file.extension  
 </code></pre>
@@ -480,10 +653,15 @@
 <p>Note that the <code>-r</code> can be used to copy recursively all the files of a directory.
 Windows users can also use <a href="http://winscp.net">winSCP</a> which provides a graphical interface.</p>
 <h2 id="remote-connection-with-a-vpn-or-a-ssh-tunnel">Remote connection with a VPN or a ssh tunnel</h2>
-<p>As the access to some </p>
-<p>It is possible to reach the computation servers with any computer, even your personal one. You have to open a [SSH tunnel][OUI:sshTunneling] in a first terminal, and then in a second terminal, you can copy file with <code>scp</code> command or open a SSH connection.</p>
+<p>As the access to some resources may be limited from outside your institution network, you may need to put in place secure connections before being able to access these resources.
+There are mainly two ways that your insitution may provide.</p>
+<h3 id="vpn">VPN</h3>
+<p>The first way of secure remote access is a Virtual Private Network or VPN.</p>
+<h3 id="ssh-tunneling">SSH Tunneling</h3>
+<p>The second way is using SSH Tunneling if your institution provides at least one server that is accessible from the outside (a "gateway").</p>
+<p>It is possible to reach the computation servers with any computer, even your personal one. You have to open a SSH tunnel in a first terminal, and then in a second terminal, you can copy file with <code>scp</code> command or open a SSH connection.</p>
 <p>The SSH tunnel:</p>
-<pre><code class="sh">ssh -N -L 22000:calcul.gipsa-lab.grenoble-inp.fr:22 your_login@ssh.gipsa-lab.grenoble-inp.fr
+<pre><code class="sh">ssh -N -L 22000:calcul_server:22 your_login@gateway
 </code></pre>
 
 <p>Once authenticated, the command will not prompt anything. It looks like the command is stopped, but it is not the case. Do not close this terminal! </p>
@@ -537,7 +715,6 @@ screen -x myVirtualTerminalName
 <li>do not display any figure in the script you launched on the server; by default there is no graphical interface and your code will crash.</li>
 <li>do not forget to use <code>sreen</code> or <code>tmux</code>.</li>
 </ul>
-<h1 id="jupyterhub">Jupyterhub</h1>
                 
                   
                 
