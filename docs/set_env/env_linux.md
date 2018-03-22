@@ -1,7 +1,9 @@
 # Setting a Python development environment on Linux
 
 ## Choosing a environment manager
+
 **Why using environment managers ?**
+
 - Ensure portability : 
 - Avoid compatibility issues :
 

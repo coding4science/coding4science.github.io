@@ -6,6 +6,7 @@ For a live view of most of this presentation see:
 ## A bit of history
 
 At the beginning :
+
 - 2001 : IPython (F. Perez), a REPL (Read–Eval–Print Loop) client-server
 - 2011 : IPython notebook : app web for documents mixing code, equations, images and text
 
