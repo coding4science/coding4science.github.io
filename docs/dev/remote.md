@@ -1,5 +1,9 @@
-# SSH
-# Local connection to computation servers 
+# Access to a remote server by SSH
+
+## The SSH protocol
+
+
+## Local connection to computation servers 
 
 ```sh
 ssh your_login@calcul_server
@@ -15,9 +19,10 @@ You will be connected to. Then, the following commands will be usefull:
 -   ```top``` -- display the running process;
 -   ```exit``` or ```ctrl + d``` -- close the ssh connection.
 
------
+### On windows
+Use putty
 
-# SCP -- secure copy of remote file
+## SCP -- secure copy of remote file
 
 Another way to copy files to the computation servers is to use ```scp``` on your computer (without ssh connection):
 
@@ -39,14 +44,21 @@ Windows users can also use [winSCP][] which provides a graphical interface.
 
 ## Remote connection with a VPN or a ssh tunnel
 
-As the access to some 
+As the access to some resources may be limited from outside your institution network, you may need to put in place secure connections before being able to access these resources.
+There are mainly two ways that your insitution may provide.
 
+### VPN
+The first way of secure remote access is a Virtual Private Network or VPN.
 
-It is possible to reach the computation servers with any computer, even your personal one. You have to open a [SSH tunnel][OUI:sshTunneling] in a first terminal, and then in a second terminal, you can copy file with ```scp``` command or open a SSH connection.
+### SSH Tunneling
+
+The second way is using SSH Tunneling if your institution provides at least one server that is accessible from the outside (a "gateway").
+
+It is possible to reach the computation servers with any computer, even your personal one. You have to open a SSH tunnel in a first terminal, and then in a second terminal, you can copy file with ```scp``` command or open a SSH connection.
 
 The SSH tunnel:
 ```sh
-ssh -N -L 22000:calcul.gipsa-lab.grenoble-inp.fr:22 your_login@ssh.gipsa-lab.grenoble-inp.fr
+ssh -N -L 22000:calcul_server:22 your_login@gateway
 ```
 Once authenticated, the command will not prompt anything. It looks like the command is stopped, but it is not the case. Do not close this terminal! 
 
@@ -111,5 +123,3 @@ Other tips:
 -   you can work locally on the server to increase your script performances (especially if you read/write lots of files). Create a directory in ```/tmp/``` and copy your scripts and data here.
 -   do not display any figure in the script you launched on the server; by default there is no graphical interface and your code will crash.
 -   do not forget to use ```sreen``` or ```tmux```.
-
-# Jupyterhub
